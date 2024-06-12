@@ -6,16 +6,16 @@
         "url": ""
       },
       "name": {
-        "uk": "Home"
+        "uk": "Головна"
       }
     },
     {
       "id": 2,
       "properties": {
-        "url": "/about"
+        "url": "/list-dlya-tebe"
       },
       "name": {
-        "uk": "About"
+        "uk": "Лист для тебе"
       }
     },
     {
@@ -24,16 +24,34 @@
         "url": "/services"
       },
       "name": {
-        "uk": "Services"
+        "uk": "Послуги"
       }
     },
     {
       "id": 4,
       "properties": {
-        "url": "/contact"
+        "url": "/about"
       },
       "name": {
-        "uk": "Contact"
+        "uk": "Про нас"
+      }
+    },
+    {
+      "id": 5,
+      "properties": {
+        "url": "/blog"
+      },
+      "name": {
+        "uk": "Блог"
+      }
+    },
+    {
+      "id": 6,
+      "properties": {
+        "url": "/contacts"
+      },
+      "name": {
+        "uk": "Контакти"
       }
     }
   ]
