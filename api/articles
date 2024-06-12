@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "image": "01.png",
+        "title": "Azure Bay Towers",
+        "teaser": "Modern architecture and unsurpassed comfort. Located in Miami's picturesque area, offering breathtaking views of the Atlantic Ocean and the cityscape.",
+        "description": "Is the epitome of modern architecture and unsurpassed comfort. Located in the heart of Miami's picturesque area, the complex offers breathtaking views of the Atlantic Ocean and the cityscape. Offers a perfect blend of modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment. Provides a luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from the hustle and bustle of city life.",
+        "date": "10.08.23",
+        "url": "article1.html"
+    },
+    {
+        "id": 2,
+        "image": "02.png",
+        "title": "Ocean Breeze Apartments",
+        "teaser": "Modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment.",
+        "description": "Offers a perfect blend of modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment. Provides a luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from the hustle and bustle of city life. Is the epitome of modern architecture and unsurpassed comfort. Located in the heart of Miami's picturesque area, the complex offers breathtaking views of the Atlantic Ocean and the cityscape.",
+        "date": "15.09.23",
+        "url": "article2.html"
+    },
+    {
+        "id": 3,
+        "image": "03.png",
+        "title": "Mountain View Villas",
+        "teaser": "Luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from city life.",
+        "description": "Provides a luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from the hustle and bustle of city life. Is the epitome of modern architecture and unsurpassed comfort. Located in the heart of Miami's picturesque area, the complex offers breathtaking views of the Atlantic Ocean and the cityscape. Offers a perfect blend of modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment.",
+        "date": "05.11.23",
+        "url": "article3.html"
+    },
+    {
+        "id": 4,
+        "image": "04.png",
+        "title": "Azure Bay Towers",
+        "teaser": "Modern architecture and unsurpassed comfort. Located in Miami's picturesque area, offering breathtaking views of the Atlantic Ocean and the cityscape.",
+        "description": "Is the epitome of modern architecture and unsurpassed comfort. Located in the heart of Miami's picturesque area, the complex offers breathtaking views of the Atlantic Ocean and the cityscape. Offers a perfect blend of modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment. Provides a luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from the hustle and bustle of city life.",
+        "date": "21.12.23",
+        "url": "article4.html"
+    },
+    {
+        "id": 5,
+        "image": "05.png",
+        "title": "Ocean Breeze Apartments",
+        "teaser": "Modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment.",
+        "description": "Offers a perfect blend of modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment. Provides a luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from the hustle and bustle of city life. Is the epitome of modern architecture and unsurpassed comfort. Located in the heart of Miami's picturesque area, the complex offers breathtaking views of the Atlantic Ocean and the cityscape.",
+        "date": "03.01.24",
+        "url": "article5.html"
+    },
+    {
+        "id": 6,
+        "image": "06.png",
+        "title": "Mountain View Villas",
+        "teaser": "Luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from city life.",
+        "description": "Provides a luxurious retreat amidst the majestic mountains. With state-of-the-art facilities and breathtaking scenery, it’s the perfect escape from the hustle and bustle of city life. Is the epitome of modern architecture and unsurpassed comfort. Located in the heart of Miami's picturesque area, the complex offers breathtaking views of the Atlantic Ocean and the cityscape. Offers a perfect blend of modern living and serene coastal ambiance. Situated along the beautiful coastline, residents can enjoy stunning sunsets and a tranquil environment.",
+        "date": "18.03.24",
+        "url": "article6.html"
+    }
+]
