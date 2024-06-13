@@ -25,7 +25,36 @@
       },
       "name": {
         "uk": "Послуги"
-      }
+      },
+      "submenu" : [
+        {
+          "id": 7,
+          "properties": {
+            "url": "/turi"
+          },
+          "name": {
+            "uk": "Тури"
+          }
+        },
+        {
+          "id": 8,
+          "properties": {
+            "url": "/kruzi"
+          },
+          "name": {
+            "uk": "Круїзи"
+          }
+        },
+        {
+          "id": 9,
+          "properties": {
+            "url": "/mice"
+          },
+          "name": {
+            "uk": "Діловий туризм"
+          }
+        }
+      ]
     },
     {
       "id": 4,
@@ -34,7 +63,36 @@
       },
       "name": {
         "uk": "Про нас"
-      }
+      },
+      "submenu" : [
+        {
+          "id": 10,
+          "properties": {
+            "url": "/kompania"
+          },
+          "name": {
+            "uk": "Компанія"
+          }
+        },
+        {
+          "id": 11,
+          "properties": {
+            "url": "/komanda"
+          },
+          "name": {
+            "uk": "Команда"
+          }
+        },
+        {
+          "id": 12,
+          "properties": {
+            "url": "/nagorody"
+          },
+          "name": {
+            "uk": "Нагороди"
+          }
+        }
+      ]
     },
     {
       "id": 5,
