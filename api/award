@@ -2,33 +2,33 @@
   "data": [
     {
       "id": 1,
-      "imageSrc": "01.jpeg",
-      "altText": "Нагорода"
+      "image": "01.jpeg",
+      "alt": "Нагорода"
     },
     {
       "id": 2,
-      "imageSrc": "02.jpeg",
-      "altText": "Нагорода"
+      "image": "02.jpeg",
+      "alt": "Нагорода"
     },
     {
       "id": 3,
-      "imageSrc": "03.jpeg",
-      "altText": "Нагорода"
+      "image": "03.jpeg",
+      "alt": "Нагорода"
     },
     {
       "id": 4,
-      "imageSrc": "04.jpeg",
-      "altText": "Нагорода"
+      "image": "04.jpeg",
+      "alt": "Нагорода"
     },
     {
       "id": 5,
-      "imageSrc": "05.jpeg",
-      "altText": "Нагорода"
+      "image": "05.jpeg",
+      "alt": "Нагорода"
     },
     {
       "id": 6,
-      "imageSrc": "06.jpeg",
-      "altText": "Нагорода"
+      "image": "06.jpeg",
+      "alt": "Нагорода"
     }
   ]
 }
