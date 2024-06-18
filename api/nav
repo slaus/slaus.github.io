@@ -12,7 +12,7 @@
     {
       "id": 2,
       "properties": {
-        "url": "/list"
+        "url": "/letter"
       },
       "name": {
         "uk": "Лист для тебе"
@@ -30,7 +30,7 @@
         {
           "id": 7,
           "properties": {
-            "url": "/turi"
+            "url": "/tours"
           },
           "name": {
             "uk": "Тури"
@@ -39,7 +39,7 @@
         {
           "id": 8,
           "properties": {
-            "url": "/kruzi"
+            "url": "/cruises"
           },
           "name": {
             "uk": "Круїзи"
@@ -68,7 +68,7 @@
         {
           "id": 10,
           "properties": {
-            "url": "/kompania"
+            "url": "/company"
           },
           "name": {
             "uk": "Компанія"
@@ -77,7 +77,7 @@
         {
           "id": 11,
           "properties": {
-            "url": "/komanda"
+            "url": "/team"
           },
           "name": {
             "uk": "Команда"
@@ -86,7 +86,7 @@
         {
           "id": 12,
           "properties": {
-            "url": "/nagorody"
+            "url": "/awards"
           },
           "name": {
             "uk": "Нагороди"
