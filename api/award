@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "imageSrc": "01.jpeg",
+      "altText": "Нагорода"
+    },
+    {
+      "id": 2,
+      "imageSrc": "02.jpeg",
+      "altText": "Нагорода"
+    },
+    {
+      "id": 3,
+      "imageSrc": "03.jpeg",
+      "altText": "Нагорода"
+    },
+    {
+      "id": 4,
+      "imageSrc": "04.jpeg",
+      "altText": "Нагорода"
+    },
+    {
+      "id": 5,
+      "imageSrc": "05.jpeg",
+      "altText": "Нагорода"
+    },
+    {
+      "id": 6,
+      "imageSrc": "06.jpeg",
+      "altText": "Нагорода"
+    }
+  ]
+}
