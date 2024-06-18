@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Наталя",
-      "image": "/img/team/natalya.jpeg",
+      "image": "natalya.jpeg",
       "description": "Працює з напрямками: Єгипет, Туреччина, Мальдіви, Маврикій, Греція, Шрі-Ланка, Фінляндія, ОАУ, Болгарія, Іспанія",
       "contacts": {
         "phone": "#",
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "name": "Юлія",
-      "image": "/img/team/yuliya.jpeg",
+      "image": "yuliya.jpeg",
       "description": "Працює за напрямками: Єгипет, Туреччина(узбережжя, Стамбул, Каппадокія), Греція, Іспанія, Ізраїль, Мальта, Туніс, Португалія",
       "contacts": {
         "phone": "#",
@@ -26,7 +26,7 @@
     {
       "id": 3,
       "name": "Аліна",
-      "image": "/img/team/alina1.jpeg",
+      "image": "alina1.jpeg",
       "description": "Працює з напрямками: Єгипет, Туреччина, Таїланд, Індонезія, Занзібар, Іспанія, Сейшели, Чорногорія, ОАЕ, Італія, Кіпр, Куба",
       "contacts": {
         "email": "#",
@@ -38,7 +38,7 @@
     {
       "id": 4,
       "name": "Анастасія",
-      "image": "/img/team/anastasiya.jpeg",
+      "image": "anastasiya.jpeg",
       "description": "Працює з напрямками: Єгипет, Туреччина, Домінікана, Кенія, Греція, Фінляндія, Чорногорія, ОАЕ, Болгарія, Кіпр, Шрі-Ланка, Албанія",
       "contacts": {
         "email": "#",
@@ -49,7 +49,7 @@
     {
       "id": 5,
       "name": "Маргарита",
-      "image": "/img/team/margaryta.jpeg",
+      "image": "margaryta.jpeg",
       "description": "Працює з напрямками: Єгипет, Туреччина, Хорватія, центральна Європа, ОАЕ, ОМАН",
       "contacts": {
         "email": "#",
@@ -60,7 +60,7 @@
     {
       "id": 6,
       "name": "Аліна",
-      "image": "/img/team/alina.jpeg",
+      "image": "alina.jpeg",
       "description": "PR - директор, з питань співпраці та реклами",
       "contacts": {
         "email": "#",
@@ -71,7 +71,7 @@
     {
       "id": 7,
       "name": "Катерина",
-      "image": "/img/team/kateryna.jpeg",
+      "image": "kateryna.jpeg",
       "description": "Полечушний маркетолог з питань покращення роботи команди",
       "contacts": {
         "email": "#",
