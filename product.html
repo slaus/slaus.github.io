@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>master-besedok.ru - Каталог</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Ubuntu:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body class="main__body main__catalog">
+    <header class="header">
+    <div class="container">
+        <div class="header__block">
+            <a href="index.html" class="header__logo">
+                <img src="img/icon-logo.svg" alt="logo" class="header__logo-img">
+                <span>Мастер-Беседок</span>
+            </a>
+            <div class="header__email">
+                <a href="mailto:sale@master-besedok.ru">
+                    <img src="img/icon-email.svg" alt="icon">
+                    <span>sale@master-besedok.ru</span>
+                </a>
+            </div>
+            <div class="header__phone">
+                <a href="tel:+74950850255">
+                    <img src="img/icon-phone.svg" alt="icon">
+                    <span>+7 495 085 02 55</span>
+                </a>
+            </div>
+            <div class="header__whatsapp">
+                <a href="https://wa.me/+74950850255?text=Добрый%20день!%20Хотел%20бы%20узнать%20подробнее%20о%20ваших%20товарах.">
+                    <img src="img/icon-wa.svg" alt="icon">
+                    <span>Написать в чат</span>
+                </a>
+            </div>
+            <div class="header__rating">
+                <a href="">
+                    <img src="img/rating.png" alt="rating">
+                </a>
+            </div>
+            <div class="header__search">
+                <div class="header__search-block" id="search">
+                    <form class="header__search-form" method="GET" action="/search/">
+                        <input type="text" class="header__search-form--input" name="search" required="required" placeholder="Введите слово для поиска..">
+                        <button class="header__search-form--btn">Поиск</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header> <div class="navbar">
+    <div class="container">
+        <div class="navbar__block">
+            <nav class="navbar__nav">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="index.html" class="menu__item-link">Главная</a>
+                    </li>
+                    <li class="menu__item menu__item-parent">
+                        <a href="#" class="menu__item-link">О компании</a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__item-link">Производство</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__item-link">Гарантии</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__item-link">Доставка и оплата</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="catalog.html" class="menu__item-link">Беседки на заказ</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="catalog.html" class="menu__item-link">Дачные беседки</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="catalog.html" class="menu__item-link">Перголы</a>
+                    </li>
+                    <li class="menu__item menu__item-parent">
+                        <a href="#" class="menu__item-link">Портфолио</a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="catalog.html" class="submenu__item-link">Беседки на заказ</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="catalog.html" class="submenu__item-link">Дачные беседки</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="catalog.html" class="submenu__item-link">Перголы</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link">Контакты</a>
+                    </li>
+                    <li class="menu__item menu__search">
+                        <form class="menu__search-form" method="GET" action="/search/">
+                            <input type="text" class="menu__search-form--input" name="search" required="required"
+                                placeholder="Введите слово для поиска..">
+                            <button class="menu__search-form--btn">Поиск</button>
+                        </form>
+                    </li>
+                    <li class="menu__item menu__email">
+                        <a href="mailto:sale@master-besedok.ru">
+                            <img src="img/icon-email.svg" alt="icon">
+                            <span>sale@master-besedok.ru</span>
+                        </a>
+                    </li>
+                    <li class="menu__item menu__callback">
+                        <a href="#" class="callback">Заказать звонок</a>
+                    </li>
+                    <li class="menu__item menu__rating">
+                        <a href="">
+                            <img src="img/rating.png" alt="rating">
+                        </a>
+                    </li>
+                </ul>
+                <div class="navbar__info">
+                    <div class="navbar__info-callback">
+                        <a href="#" class="callback">Заказать звонок</a>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar__catalog">
+                <div class="catalog" id="catalog">
+                    <a href="#" class="catalog__link">Каталог товаров</a>
+                    <ul class="catalog__menu">
+                        <li class="catalog__item catalog__item-parent">
+                            <a href="catalog.html" class="catalog__item-link">Комплектация<span></span></a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">С барбекю</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">С летней кухней</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="catalog__item catalog__item-parent">
+                            <a href="catalog.html" class="catalog__item-link">Материал<span></span></a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Брус</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Оцилиндрованное бревно</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="catalog__item catalog__item-parent">
+                            <a href="catalog.html" class="catalog__item-link">Форма основания<span></span></a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Квадратные</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Угловые</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="catalog__item catalog__item-parent">
+                            <a href="catalog.html" class="catalog__item-link">Форма крыши<span></span></a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Односкатная крыша</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Двухскатная крыша</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="catalog__item catalog__item-parent">
+                            <a href="catalog.html" class="catalog__item-link">Остекленение<span></span></a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Зимние</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Летние</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="catalog__item catalog__item-parent">
+                            <a href="catalog.html" class="catalog__item-link">Стиль<span></span></a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Финские</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Японские</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="catalog__item catalog__item-parent">
+                            <a href="catalog.html" class="catalog__item-link">Производитель<span></span></a>
+                            <ul class="submenu">
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Агросфера</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="product.html" class="submenu__item-link">Череповецкие</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <button class="burger">
+                <span></span>
+            </button>
+        </div>
+    </div>
+</div>
+    <section class="breadcrumb">
+    <div class="container">
+        <div class="breadcrumb__block">
+            <span>
+                <a href="index.html" class="breadcrumb__link">Главная</a>
+            </span>
+            <span>
+                <a href="catalog.html" class="breadcrumb__link">Беседки для дачи</a>
+            </span>
+            <span>
+                <span class="breadcrumb__item">Беседка Тис</span>
+            </span>
+        </div>
+    </div>
+</section>
+    <main class="main">
+      <div class="main__wrapper">
+        <aside class="sidebar">
+    <ul class="sidebar__menu" id="sidebar">
+        <li class="sidebar__item sidebar__item-parent">
+            <span>
+                <img src="img/icon-home.svg" alt="icon">
+                Материал</span>
+            <ul class="submenu">
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Брус</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Поликарбонат</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Кирпич</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Оцилиндрованное бревно</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Клеенный брус</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sidebar__item sidebar__item-parent">
+            <span>
+                <img src="img/icon-base.svg" alt="icon">
+                Форма основания</span>
+            <ul class="submenu">
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Квадратные</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Угловые</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Круглый</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Прямоугольные</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Шестигранные</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sidebar__item sidebar__item-parent">
+            <span>
+                <img src="img/icon-housetop.svg" alt="icon">
+                Форма крыши</span>
+            <ul class="submenu">
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Односкатная</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Двухскатная</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Купольная</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Четырехскатная</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sidebar__item sidebar__item-parent">
+            <span>
+                <img src="img/icon-style.svg" alt="icon">
+                Стиль</span>
+            <ul class="submenu">
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Финские</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Японские</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Хай-тек</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Большие</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Лофт</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Шале</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sidebar__item sidebar__item-parent">
+            <span>
+                <img src="img/icon-window.svg" alt="icon">
+                Сезон/Остекленение</span>
+            <ul class="submenu">
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">С остекленением</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Зимние</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Летние</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Панорамное остекленение</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sidebar__item sidebar__item-parent">
+            <span>
+                <img src="img/icon-setting.svg" alt="icon">
+                Комплектация</span>
+            <ul class="submenu">
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">С барбекю</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">С летней кухней</a>
+                </li>
+            </ul>
+        </li>
+        <li class="sidebar__item sidebar__item-parent">
+            <span>
+                <img src="img/icon-user.svg" alt="icon">
+                Производитель</span>
+            <ul class="submenu">
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Агросфера</a>
+                </li>
+                <li class="submenu__item">
+                    <a href="product.html" class="submenu__item-link">Череповецкие</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</aside>
+        <div class="main__content">
+          <section class="product">
+  <div class="container">
+    <div class="product__block">
+      <h1 class="product__title">Беседка Тис</h1>
+      <div class="product__images">
+        <div class="product__images-img">
+          <img src="img/best1.jpg" alt="img" />
+          <div class="product__images-img--discount">Хит продаж 2024</div>
+        </div>
+        <div class="product__images-slider">
+          <div class="product__images-slider--wrap">
+            <div class="product__images-slider-block swiper-product">
+                <div class="swiper-wrapper product__wrapper">
+                  <div class="swiper-slide">
+                    <a href="" class="">
+                      <img src="img/best1.jpg" alt="img" />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="" class="">
+                      <img src="img/best1.jpg" alt="img" />
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="" class="">
+                      <img src="img/best1.jpg" alt="img" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="product__text">
+        <div class="product__info">
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-size.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Размер
+              <span>3.4 м</span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-height.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Высота
+              <span>2.7 м</span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-material.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Материал
+              <span>брус</span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-roof.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Крыша
+              <span>четырехскатная</span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-users.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Вместимость
+              <span>8 человек</span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-clock.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Срок службы
+              <span>15 лет</span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-bottom.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Фундамент
+              <span>блоки/сваи</span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-pencil.svg" alt="img" />
+            </div>
+            <div class="product__info-desc">
+              Цвет кровли
+              <span>
+                <span
+                  class="product__info-desc--color"
+                  style="background: seagreen"
+                ></span>
+                <span
+                  class="product__info-desc--color"
+                  style="background: slategrey"
+                ></span>
+                <span
+                  class="product__info-desc--color"
+                  style="background: teal"
+                ></span>
+                <span
+                  class="product__info-desc--color"
+                  style="background: saddlebrown"
+                ></span>
+              </span>
+            </div>
+          </div>
+          <div class="product__info-item">
+            <div class="product__info-img">
+              <img src="img/icon-install.svg" alt="img" />
+            </div>
+            <div class="product__info-desc format-price">
+              Цена монтажа
+              <span><span class="format-price">46000</span> руб.</span>
+            </div>
+          </div>
+        </div>
+        <div class="product__params">
+          <div class="product__params-price format-price">
+            <span class="old"
+              >от <span class="format-price">212400</span> руб.</span
+            >
+            <span>от <span class="format-price">178900</span> руб.</span>
+          </div>
+          <div class="product__params-link">
+            <a href="">Заказать</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <section class="params">
+  <div class="container">
+    <div class="params__container">
+      <div class="tabs">
+        <div class="tabs__wrapper params__wrapper">
+          <div class="tabs__header params__buttons">
+            <div class="tabs__header-item params__buttons-item active">
+              Характеристики
+            </div>
+            <div class="tabs__header-item params__buttons-item">Стоимость</div>
+            <div class="tabs__header-item params__buttons-item">Видео</div>
+            <div class="tabs__header-item params__buttons-item">
+              Цветовая палитра
+            </div>
+            <div class="tabs__header-item params__buttons-item">
+              Дополнительные товары
+            </div>
+          </div>
+        </div>
+        <div class="tabs__content">
+          <div class="tabs__content-item params__block">
+              <div class="property">
+  <div class="property__text">
+    <p>
+      Форма беседки универсальна и позволяет удобно разместить ее на участке.
+      Конструкция стандартная – опорные столбы, деревянный пол, четырехскатная
+      крыша. Защитные перегородки и оконные проемы закрыты деревянными
+      решетками, несколько окон остаются открытыми для дополнительной
+      вентиляции.
+    </p>
+    <p>
+      Установка беседки возможна на стандартные фундаментные блоки, при сложном
+      грунте – с использованием винтовых свай.
+    </p>
+  </div>
+  <div class="property__catacters">
+    <h4 class="property__catacters-title">Характеристики:</h4>
+    <div class="property__catacters-list">
+      <div class="property__catacters-item">
+        <img src="img/icon-size-b.svg" alt="img" />
+        <div>
+          Габариты:
+          <span>4x4 м (возможно изготовление 3x3, 3x4 и другие размеры)</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-bottom-b.svg" alt="img" />
+        <div>
+          Обвязка:
+          <span>брус 100х100 мм</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-column.svg" alt="img" />
+        <div>
+          Столбы:
+          <span>брус 100х100 мм</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-roof-b.svg" alt="img" />
+        <div>
+          Крыша:
+          <span>четырехскатная</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-material-b.svg" alt="img" />
+        <div>
+          Материал кровли:
+          <span>мягкая черепица</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-width.svg" alt="img" />
+        <div>
+          Растояние между лагами пола:
+          <span>65 см</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-window-b.svg" alt="img" />
+        <div>
+          Обрешетка:
+          <span>доска 20х40 мм строганная</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-users-b.svg" alt="img" />
+        <div>
+          Вместимость:
+          <span>8 человек</span>
+        </div>
+      </div>
+      <div class="property__catacters-item">
+        <img src="img/icon-clock-b.svg" alt="img" />
+        <div>
+          Срок службы:
+          <span>15 лет</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="property__variants">
+    <h4 class="property__variants-title">Варианты фундамента:</h4>
+    <div class="property__variants-list">
+      <div class="property__variants-item">
+        <a href="" class="property__variants-item--img">
+          <img src="img/fundament1.png" alt="img" />
+        </a>
+        <a href="" class="property__variants-item--title">
+          Фундаментный блок
+        </a>
+        <div class="property__variants-item--desc">
+          200x200x400 мм (подготовка песка оговаривается)
+        </div>
+      </div>
+      <div class="property__variants-item">
+        <a href="" class="property__variants-item--img">
+          <img src="img/fundament2.png" alt="img" />
+        </a>
+        <a href="" class="property__variants-item--title">
+          Металлические сваи
+        </a>
+        <div class="property__variants-item--desc">
+          длина 1.5 м (используется для глинистой и болотистой почвы)
+        </div>
+      </div>
+      <div class="property__variants-item">
+        <a href="" class="property__variants-item--img">
+          <img src="img/fundament3.png" alt="img" />
+        </a>
+        <a href="" class="property__variants-item--title"> Монолитная плита </a>
+        <div class="property__variants-item--desc">
+          высота 20 см (используеются на ровной поверхности)
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="tabs__content-item params__block">
+              <div class="payment">
+  <div class="payment__block">
+    <div class="payment__step">
+      <div class="payment__item">
+        <div class="payment__item-title"><span>1</span>Площадь беседки</div>
+        <div class="payment__item-block">
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/slider-img1.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                Размер
+                <input type="text" class="" name="" id="" value="4" />
+                х
+                <input type="text" class="" name="" id="" value="4" />
+              </div>
+              <div>
+                Сборка каркаса
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" checked />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div>
+                Клеенный брус
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">208000</span> руб.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="payment__item">
+        <div class="payment__item-title"><span>2</span>Варианты фундамента</div>
+        <div class="payment__item-block">
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/fundament1.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                Фундаментные блоки
+                <input type="text" class="" name="" id="" value="2" />
+                шт
+              </div>
+              <div>
+                Нужен монтаж
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">0</span> руб.
+            </div>
+          </div>
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/fundament2.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                Винтовые сваи
+                <input type="text" class="" name="" id="" value="6" />
+                шт
+              </div>
+              <div>
+                Нужна сборка
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">0</span> руб.
+            </div>
+          </div>
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/fundament3.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                Монолитная плита
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div><span>Установка включена</span></div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">0</span> руб.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="payment__item">
+        <div class="payment__item-title"><span>3</span>Варианты крыши</div>
+        <div class="payment__item-block">
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/krysha1.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                Мягкая черепица
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div><span>Установка включена</span></div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">0</span> руб.
+            </div>
+          </div>
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/krysha2.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                Металлочерепица
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div><span>Установка включена</span></div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">0</span> руб.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="payment__item">
+        <div class="payment__item-title"><span class="empty">4</span>Покраска</div>
+        <div class="payment__item-block">
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/paint1.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                1 слой краски
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div><span>Установка включена</span></div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">0</span> руб.
+            </div>
+          </div>
+          <div class="payment__item-info">
+            <div class="payment__item-info--img">
+              <img src="img/paint1.png" alt="img" />
+            </div>
+            <div class="payment__item-info--text">
+              <div>
+                2 слой краски
+                <label class="custom-checkbox">
+                  <input type="checkbox" class="" name="" id="" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div><span>Установка включена</span></div>
+            </div>
+            <div class="payment__item-info--price">
+              <span class="format-price">0</span> руб.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="payment__total">
+      <div class="payment__total-text">
+        <div class="payment__total-text--subtitle">
+          <img src="img/icon-check.svg" alt="img" />
+          Цены актуальны до 16.12.2024
+        </div>
+        <div class="payment__total-text--title">Стоимость проекта</div>
+        <div class="payment__total-text--desc">
+          * расчет стоимости без учета доставки
+        </div>
+      </div>
+      <div class="payment__total-order">
+        <div class="payment__total-order--price">
+          <span class="format-price" id="totalOrder">0</span> руб.
+        </div>
+        <a href="" class="payment__total-order--link">Оставить заявку</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="tabs__content-item params__block">
+              <div class="block-video">
+  <div class="block-video__wrap">
+    <div class="swiper-product-video">
+      <div class="swiper-wrapper block-video__wrapper">
+        <div class="swiper-slide">
+          <div class="block-video__item">
+            <div class="block-video__item-img">
+              <img src="img/video1.png" alt="img" />
+            </div>
+            <h4 class="block-video__subtitle">Беседка Семейная</h4>
+            <p><b>Цена объекта:</b> от 316 900 руб.</p>
+            <a href=""><b>Ссылка на проект:</b> Беседка Семейная</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="block-video__item">
+            <div class="block-video__item-img">
+              <img src="img/video1.png" alt="img" />
+            </div>
+            <h4 class="block-video__subtitle">Беседка Семейная</h4>
+            <p><b>Цена объекта:</b> от 316 900 руб.</p>
+            <a href=""><b>Ссылка на проект:</b> Беседка Семейная</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="block-video__item">
+            <div class="block-video__item-img">
+              <img src="img/video1.png" alt="img" />
+            </div>
+            <h4 class="block-video__subtitle">Беседка Семейная</h4>
+            <p><b>Цена объекта:</b> от 316 900 руб.</p>
+            <a href=""><b>Ссылка на проект:</b> Беседка Семейная</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="block-video__item">
+            <div class="block-video__item-img">
+              <img src="img/video1.png" alt="img" />
+            </div>
+            <h4 class="block-video__subtitle">Беседка Семейная</h4>
+            <p><b>Цена объекта:</b> от 316 900 руб.</p>
+            <a href=""><b>Ссылка на проект:</b> Беседка Семейная</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="block-video__item">
+            <div class="block-video__item-img">
+              <img src="img/video1.png" alt="img" />
+            </div>
+            <h4 class="block-video__subtitle">Беседка Семейная</h4>
+            <p><b>Цена объекта:</b> от 316 900 руб.</p>
+            <a href=""><b>Ссылка на проект:</b> Беседка Семейная</a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="block-video__item">
+            <div class="block-video__item-img">
+              <img src="img/video1.png" alt="img" />
+            </div>
+            <h4 class="block-video__subtitle">Беседка Семейная</h4>
+            <p><b>Цена объекта:</b> от 316 900 руб.</p>
+            <a href=""><b>Ссылка на проект:</b> Беседка Семейная</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="tabs__content-item params__block">
+              <div class="color">
+  <div class="color__block">
+    <div class="color__title">Цветовая палитра вашей беседки</div>
+    <div class="color__step">
+      <div class="color__item">
+        <div class="color__item-title"><span>1</span>Цвета каркаса</div>
+        <div class="color__item-block">
+          <div class="color__item-info">
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #ff0000"></div>
+              <span>Красный</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #000000"></div>
+              <span>Черный</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #fff"></div>
+              <span>Белый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #909090"></div>
+              <span>Серый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #EAFF00"></div>
+              <span>Желтый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #60D669"></div>
+              <span>Зеленый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #006FFF"></div>
+              <span>Синий</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #6C3C14"></div>
+              <span>Коричневый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint" style="background: #FF802A"></div>
+              <span>Оранжевый</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="color__item">
+        <div class="color__item-title"><span>2</span>Цвета черепицы</div>
+        <div class="color__item-block">
+          <div class="color__item-info">
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint">
+                <img src="img/krysha3.png" alt="img" />
+              </div>
+              <span>Темно-зеленый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint">
+                <img src="img/krysha4.png" alt="img" />
+              </div>
+              <span>Коричневый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint">
+                <img src="img/krysha5.png" alt="img" />
+              </div>
+              <span>Серый</span>
+            </div>
+            <div class="color__item-info--block">
+              <div class="color__item-info--paint">
+                <img src="img/krysha6.png" alt="img" />
+              </div>
+              <span>Красный</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="tabs__content-item params__block">
+              <div class="services">
+  <div class="services__block">
+    <div class="services__title">
+      <img src="img/icon-include.svg" alt="img" />
+      Мы можем включить в ваш заказ любой товар из представленных на странице
+    </div>
+    <div class="services__section">
+      <div class="services__section-title">Деревянная мебель</div>
+      <div class="services__swiper">
+  <div class="services__wrap">
+    <div class="swiper-services">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="img/wood1.png" alt="img" />
+            </div>
+            <h4 class="services__item-title"><a href="">Ступенька</a></h4>
+            <p>По размеру входного проема</p>
+            <div class="services__item-price">
+              <b><span class="format-price">2000</span> руб.</b>
+              <span class="old"
+                ><span class="format-price">2500</span> руб.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="img/wood2.png" alt="img" />
+            </div>
+            <h4 class="services__item-title"><a href="">Стол деревянный</a></h4>
+            <p>В размер беседки</p>
+            <div class="services__item-price">
+              <b><span class="format-price">8000</span> руб.</b>
+              <span class="old"
+                ><span class="format-price">9500</span> руб.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="img/wood3.png" alt="img" />
+            </div>
+            <h4 class="services__item-title">
+              <a href="">Скамейка деревянная</a>
+            </h4>
+            <p>В размер беседки</p>
+            <div class="services__item-price">
+              <b><span class="format-price">6000</span> руб.</b>
+              <span class="old"
+                ><span class="format-price">7500</span> руб.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="services__section">
+        <div class="services__section-title">Фурнитура</div>
+        <div class="services__swiper">
+  <div class="services__wrap">
+    <div class="swiper-services">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="img/wood1.png" alt="img" />
+            </div>
+            <h4 class="services__item-title"><a href="">Ступенька</a></h4>
+            <p>По размеру входного проема</p>
+            <div class="services__item-price">
+              <b><span class="format-price">2000</span> руб.</b>
+              <span class="old"
+                ><span class="format-price">2500</span> руб.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="img/wood2.png" alt="img" />
+            </div>
+            <h4 class="services__item-title"><a href="">Стол деревянный</a></h4>
+            <p>В размер беседки</p>
+            <div class="services__item-price">
+              <b><span class="format-price">8000</span> руб.</b>
+              <span class="old"
+                ><span class="format-price">9500</span> руб.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="services__item">
+            <div class="services__item-img">
+              <img src="img/wood3.png" alt="img" />
+            </div>
+            <h4 class="services__item-title">
+              <a href="">Скамейка деревянная</a>
+            </h4>
+            <p>В размер беседки</p>
+            <div class="services__item-price">
+              <b><span class="format-price">6000</span> руб.</b>
+              <span class="old"
+                ><span class="format-price">7500</span> руб.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</div>
+
+      </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <section class="individual">
+  <div class="container">
+    <div class="individual__top">
+      <h2 class="individual__top-title">наши постройки по данному проекту</h2>
+    </div>
+    <div class="individual__swiper">
+      <div class="individual__block swiper-individual swiper">
+        <div class="swiper-wrapper individual__wrapper">
+          <div class="swiper-slide">
+            <div class="individual__item">
+              <div class="individual__item-img">
+                <img src="img/individual1.png" alt="img" />
+              </div>
+              <h4 class="individual__subtitle">
+                <a href="">Беседка Долина</a>
+              </h4>
+              <p><b>Размер:</b> 3*4</p>
+              <p><b>Кровля:</b> мягкая черепица</p>
+              <p><b>Покраска:</b> покраска в 2 слоя</p>
+              <p><b>Фундамент:</b> фундаментные блоки</p>
+              <p><b>Дата сборки:</b> 08.06.2024</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="individual__item">
+              <div class="individual__item-img">
+                <img src="img/individual2.png" alt="img" />
+              </div>
+              <h4 class="individual__subtitle">
+                <a href="">Беседка Долина</a>
+              </h4>
+              <p><b>Размер:</b> 3*4</p>
+              <p><b>Кровля:</b> мягкая черепица</p>
+              <p><b>Покраска:</b> покраска в 2 слоя</p>
+              <p><b>Фундамент:</b> фундаментные блоки</p>
+              <p><b>Дата сборки:</b> 08.06.2024</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="individual__item">
+              <div class="individual__item-img">
+                <img src="img/individual3.png" alt="img" />
+              </div>
+              <h4 class="individual__subtitle">
+                <a href="">Беседка Долина</a>
+              </h4>
+              <p><b>Размер:</b> 3*4</p>
+              <p><b>Кровля:</b> мягкая черепица</p>
+              <p><b>Покраска:</b> покраска в 2 слоя</p>
+              <p><b>Фундамент:</b> фундаментные блоки</p>
+              <p><b>Дата сборки:</b> 08.06.2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <div class="info">
+    <div class="container">
+        <div class="info__container">
+            <h2 class="info__title">Полезная информация для заказчика</h2>
+            <div class="info__block">
+                <div class="info__desc">
+                    <ol>
+                        <li>Деревянные беседки изготавливаются из строганного бруса естественной влажности категории 1. Возможно изготовление из клееного бруса. Увеличение стоимости каркаса от 30%. </li>
+                        <li>Обшивка производится материалами хвойных пород. </li>
+                        <li>Для окрашивания используется краска TIKKURILA. </li>
+                        <li>Для антисептической обработки каркаса применяется пропитка Pinotex. 5. Памятка по уходу за деревянными беседками.</li>
+                    </ol>
+                </div>
+                <div class="info__img">
+                    <img src="img/info.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <section class="edge">
+    <div class="container edge__container">
+        <h2 class="edge__title">Преимущества работы с нами</h2>
+        <div class="advantage">
+    <div class="advantage__block swiper-advantage swiper">
+        <div class="swiper-wrapper advantage__wrapper">
+            <div class="swiper-slide">
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="img/icon-ok.svg" alt="img">
+                    </div>
+                    <div class="advantage__item-title">
+                        Работаем
+                        под ключ как с изделиями на заказ, так и с типовыми проектами
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="img/icon-ok.svg" alt="img">
+                    </div>
+                    <div class="advantage__item-title">
+                        Работаем с деревом/
+                        Lego-кирпичом/
+                        поликарбонатом
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="img/icon-ok.svg" alt="img">
+                    </div>
+                    <div class="advantage__item-title">
+                        Больше 100 готовых проектов
+                        и довольных клиентов
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="img/icon-ok.svg" alt="img">
+                    </div>
+                    <div class="advantage__item-title">
+                        Являемся спонсорами общественных мероприятий
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="img/icon-ok.svg" alt="img">
+                    </div>
+                    <div class="advantage__item-title">
+                        Большой срок службы
+                        наших беседок
+                        и гарантия от 12 месяцев
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+    </div>
+</div>
+    </div>
+</section>
+          <section class="manufacture">
+    <div class="container">
+        <h3 class="manufacture__title">
+            Рассчитать изготовление беседки по индивидуальным размерам
+        </h3>
+        <div class="manufacture__block">
+            <div class="manufacture__calc">
+                <div class="calc">
+    <div class="calc__params">
+        <form id="calculator-form" class="calc__form">
+            <div class="calc__form-param">
+                <div class="calc__form-group">
+                    <p class="calc__form-selected"></p>
+                    <span>Материал</span>
+                    <div class="calc__form-dropdown">
+                        <a href="#" data-value="Брус">Брус</a>
+                        <a href="#" data-value="Оцилиндрованное бревно">Оцилиндрованное бревно</a>
+                        <a href="#" data-value="Клееный брус">Клееный брус</a>
+                        <a href="#" data-value="Lego-кирпич">Lego-кирпич</a>
+                    </div>
+                </div>
+                <div class="calc__form-group">
+                    <p class="calc__form-selected"></p>
+                    <span>Форма крыши</span>
+                    <div class="calc__form-dropdown">
+                        <a href="#" data-value="Односкатная">Односкатная</a>
+                        <a href="#" data-value="Двускатная">Двускатная</a>
+                        <a href="#" data-value="Купольная">Купольная</a>
+                        <a href="#" data-value="Многощипцовая">Многощипцовая</a>
+                    </div>
+                </div>
+                <div class="calc__form-group">
+                    <p class="calc__form-selected"></p>
+                    <span>Площадь</span>
+                    <div class="calc__form-dropdown">
+                        <a href="#" data-value="до 8 м2">до 8 м2</a>
+                        <a href="#" data-value="8-12 м2">8-12 м2</a>
+                        <a href="#" data-value="12-16 м2">12-16 м2</a>
+                        <a href="#" data-value="16-20 м2">16-20 м2</a>
+                        <a href="#" data-value="более 20 м2">более 20 м2</a>
+                    </div>
+                </div>
+                <div class="calc__form-group">
+                    <p class="calc__form-selected"></p>
+                    <span>Фундамент</span>
+                    <div class="calc__form-dropdown">
+                        <a href="#" data-value="Фундаментные блоки">Фундаментные блоки</a>
+                        <a href="#" data-value="Сваи">Сваи</a>
+                        <a href="#" data-value="Каменная плита">Каменная плита</a>
+                        <a href="#" data-value="Монолитная плита">Монолитная плита</a>
+                    </div>
+                </div>
+            </div>
+            <div class="calc__form-inputs">
+                <input type="text" placeholder="Имя *" required="required" name="name">
+                <input type="text" placeholder="+7 (___) ___-__-__ *" id="phone_cons" required="required" name="phone">
+                <input type="email" placeholder="E-mail" name="email">
+            </div>
+            <div class="calc__form-comment">
+                <div>
+                    <input type="text" name="text" placeholder="Комментарий">
+                </div>
+                <div class="calc__form-comment--agree">
+                    <p>Нажимая на кнопку "Отправить", Я соглашаюсь с условиями <a href=""
+                            target="__blank">пользовательского соглашения</a>.</p>
+                </div>
+                <button class="calc__form-submit" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__block">
+            <div class="footer__item">
+                <a href="index.html" class="footer__item-logo">
+                    <img src="img/icon-logo.svg" alt="logo">
+                    <p>Мастер-Беседок</p>
+                </a>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item-title">Каталог</div>
+                <ul class="footer__item-list">
+                    <li><a href="">Беседки из бруса</a></li>
+                    <li><a href="">Для зимы</a></li>
+                    <li><a href="">Гриль-домики</a></li>
+                    <li><a href="">С остекленением</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item-title">Покупателям</div>
+                <ul class="footer__item-list">
+                    <li><a href="">Как сделать заказ</a></li>
+                    <li><a href="">Популярные вопросы</a></li>
+                    <li><a href="">Карта сайта</a></li>
+                    <li><a href="">Работа с данными</a></li>
+                    <li><a href="">Письмо директору</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item-title">Сервис</div>
+                <ul class="footer__item-list">
+                    <li><a href="">Палитра красок</a></li>
+                    <li><a href="">Доставка</a></li>
+                    <li><a href="">Наши проекты</a></li>
+                    <li><a href="">Статьи</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item-title">Контакты</div>
+                <ul class="footer__item-list">
+                    <li><a href="tel:+74950850255">+7 495 085 02 55</a></li>
+                    <li><a href="mailto:sale@master-besedok.ru">sale@master-besedok.ru</a></li>
+                    <li><span>143006, МО, г. Одинцово, ул. Транспортная, 5 стр. 1</span></li>
+                </ul>
+                <ul class="footer__item-social">
+                    <li>
+                        <a href="" target="_blank"><img src="img/icon-vk.svg" alt="VK" /></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><img src="img/icon-od.svg" alt="OK" /></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><img src="img/icon-ru.svg" alt="RU" /></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank"><img src="img/icon-fr.svg" alt="FR" /></a>
+                    </li>
+                </ul>
+                <a href="" class="footer__item-rating">
+                    <img src="img/rating.png" alt="Рейтинг">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer__container">
+        <div class="container">
+            <div class="footer__copyright">
+                <div class="footer__copyright-text">© <a href="">Мастер-Беседок</a> 2016-2024 г. Все права защищены.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<button id="to-top-button" class="to-top">
+    <img src="img/icon-top.svg" alt="top">
+</button> <div class="modal__wrapper" id="callback-modal">
+    <div class="modal">
+        <div class="modal__close" id="callback-close">
+            <img src="img/icon-close.svg" alt="cancel">
+        </div>
+        <div class="modal__title"><span>Обратный звонок</span> </div>
+        <div class="modal__body">
+            <form class="form">
+    <div class="form__inputs">
+        <input type="text" placeholder="Имя *" required="required" name="name">
+        <input type="text" placeholder="+7 (___) ___-__-__ *" id="phone_modal" required="required" name="phone">
+        <input type="email" placeholder="E-mail" name="email">
+    </div>
+    <div class="form__comment">
+        <div>
+            <input type="text" name="text" placeholder="Комментарий">
+        </div>
+        <div class="form__comment-agree">
+            <p>Нажимая на кнопку "Отправить", Я соглашаюсь с условиями <a href="" target="__blank">пользовательского
+                    соглашения</a>.</p>
+        </div>
+        <button class="form__submit" type="submit">Отправить</button>
+    </div>
+</form>
+        </div>
+    </div>
+</div>
+
+  </body>
+
+  <script src="js/scripts.js"></script>
+</html>
