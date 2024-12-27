@@ -419,7 +419,7 @@ h3 {
 
 .navbar {
   width: 100%;
-  height: 100px;
+  height: 70px;
   background: #E0D7CF;
   border-top: 1px solid #6C3C14;
   border-bottom: 1px solid #6C3C14;
@@ -445,7 +445,7 @@ h3 {
 }
 
 .navbar__block {
-  height: 100px;
+  height: 70px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2573,7 +2573,7 @@ h3 {
 .about {
   display: block;
   margin: 30px 0;
-  padding: 30px 0;
+  padding: 0 0 30px;
 }
 
 .about__title {
@@ -5001,9 +5001,19 @@ h3 {
   padding-bottom: 5px;
 }
 
+.block-video__item a b,
+.block-video__item a strong {
+  color: #111;
+  cursor: initial;
+}
+
 .block-video__item a:hover {
   color: #6C3C14;
-  border-bottom: 1px dashed #6C3C14;
+}
+
+.block-video__item a:hover b,
+.block-video__item a:hover strong {
+  color: #111;
 }
 
 .block-video__item-price {
@@ -5026,7 +5036,7 @@ h3 {
 
 .block-video__subtitle {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -5896,9 +5906,19 @@ h3 {
   padding-bottom: 5px;
 }
 
+.video__item a b,
+.video__item a strong {
+  color: #111;
+  cursor: initial;
+}
+
 .video__item a:hover {
   color: #6C3C14;
-  border-bottom: 1px dashed #6C3C14;
+}
+
+.video__item a:hover b,
+.video__item a:hover strong {
+  color: #111;
 }
 
 .video__subtitle {
@@ -8839,11 +8859,7 @@ button.swiper-pagination-bullet {
   }
 
   .navbar {
-    height: 80px;
-  }
-
-  .navbar__block {
-    height: 80px;
+    height: 70px;
   }
 
   .navbar__info {
@@ -9780,7 +9796,7 @@ button.swiper-pagination-bullet {
     display: none;
   }
 
-  .navbar__info {
+  .navbar__info-callback {
     display: none;
   }
 
@@ -10850,6 +10866,10 @@ button.swiper-pagination-bullet {
     height: 48px;
   }
 
+  .navbar__info-phone a span {
+    display: none;
+  }
+
   .catalog {
     height: 40px;
     margin-top: -3px;
@@ -11061,7 +11081,7 @@ button.swiper-pagination-bullet {
   }
 
   .about {
-    padding: 20px 0;
+    padding: 0 0 20px;
     margin: 20px 0;
   }
 
