@@ -317,10 +317,22 @@ body {
     display        : flex;
     flex-direction : column;
     justify-content: flex-end;
+    overflow       : hidden;
 }
 
 .wait__image:hover .wait__image-img:before {
-    background: rgba(0, 0, 0, .6);
+    opacity   : 1;
+    transition: all .3s ease;
+}
+
+.wait__image:hover .wait__image-title {
+    transform : translateX(0%);
+    transition: all .4s ease;
+}
+
+.wait__image:hover .wait__image-desc {
+    transform : translateX(0%);
+    transition: all .5s ease;
 }
 
 .wait__image-img img {
@@ -343,6 +355,8 @@ body {
     min-height    : 100px;
     color         : var(--white);
     z-index       : 2;
+    transform     : translateX(100%);
+    transition    : all .4s ease;
 }
 
 .wait__image-desc {
@@ -354,6 +368,8 @@ body {
     min-height : 200px;
     color      : var(--white);
     z-index    : 2;
+    transform  : translateX(100%);
+    transition : all .5s ease;
 }
 
 .wait__image-img {
@@ -373,6 +389,7 @@ body {
     height    : 100%;
     background: rgba(0, 0, 0, .5);
     z-index   : 1;
+    opacity   : 0;
     transition: all .3s ease;
 }
 
@@ -615,9 +632,22 @@ body {
     display        : flex;
     flex-direction : column;
     justify-content: flex-end;
+    overflow       : hidden;
 }
+
 .why__image:hover .why__image-img:before {
-    background: rgba(0, 0, 0, .6);
+    opacity   : 1;
+    transition: all .3s ease;
+}
+
+.why__image:hover .why__image-title {
+    transform : translateX(0%);
+    transition: all .4s ease;
+}
+
+.why__image:hover .why__image-desc {
+    transform : translateX(0%);
+    transition: all .5s ease;
 }
 
 .why__image-title {
@@ -631,6 +661,8 @@ body {
     min-height    : 100px;
     color         : var(--white);
     z-index       : 2;
+    transform     : translateX(100%);
+    transition    : all .4s ease;
 }
 
 .why__image-desc {
@@ -642,6 +674,8 @@ body {
     min-height : 200px;
     color      : var(--white);
     z-index    : 2;
+    transform  : translateX(100%);
+    transition : all .5s ease;
 }
 
 .why__image-img {
@@ -662,6 +696,7 @@ body {
     background: rgba(0, 0, 0, .5);
     z-index   : 1;
     transition: all .3s ease;
+    opacity   : 0;
 }
 
 .why__image-img img {
@@ -813,10 +848,12 @@ body {
     gap            : 20px;
     flex-wrap      : wrap;
 }
+
 .reserve__block-moto img {
     -webkit-animation: heart 3s ease 1s infinite normal forwards;
-    animation: heart 3s ease 1s infinite normal forwards;
+    animation        : heart 3s ease 1s infinite normal forwards;
 }
+
 .reserve__block-button {
     display         : inline-block;
     padding         : 12px 35px;
@@ -828,30 +865,31 @@ body {
     text-decoration : none;
     transition      : all 0.3s ease;
     text-shadow     : 0px 1px 5px #131313;
-            outline: none;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
+    outline         : none;
+    transition      : all 0.3s ease;
+    position        : relative;
+    overflow        : hidden;
 }
+
 .reserve__block-button::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 300%;
-    height: 300%;
-    background: radial-gradient(circle, rgba(255,255,255,0.2) 10%, transparent 50%);
+    content   : "";
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    width     : 300%;
+    height    : 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, transparent 50%);
     transition: all 0.5s ease;
-    transform: translate(-50%, -50%) scale(0);
+    transform : translate(-50%, -50%) scale(0);
 }
 
 .reserve__block-button:hover::before {
     transform: translate(-50%, -50%) scale(1);
-    opacity: 0;
+    opacity  : 0;
 }
 
 .reserve__block-button:hover {
     background-color: var(--greenDarkHover);
-    transform: scale(1.04);
-            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.7);
+    transform       : scale(1.04);
+    box-shadow      : 0 5px 20px rgba(255, 255, 255, 0.7);
 }
