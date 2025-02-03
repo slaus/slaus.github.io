@@ -226,17 +226,11 @@ body {
 
 @media screen and (max-width: 991px) {
     .hero__wrap {
-        max-width: 500px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .hero__wrap {
         max-width: 55%;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
     .hero__wrap {
         max-width  : 70%;
         padding-top: 50px;
@@ -345,7 +339,7 @@ body {
     background-size: contain;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
     .hero__bg-image--two {
         display: none;
     }
